@@ -4,7 +4,7 @@ import axios from "axios";
 const TOKEN_KEY = "tpm_token"; // matches your code
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api/",
+  baseURL: import.meta.env.VITE_API_URL || "https://trainee-miniproject-tracker-backend.onrender.com/api/",
 
   headers: {
     "Content-Type": "application/json",
